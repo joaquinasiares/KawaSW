@@ -1,0 +1,104 @@
+﻿/* Contenedor principal del GridView */
+.grid-view-container {
+    width: 100%;
+    overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
+}
+
+/* Estilos generales del GridView */
+.grid-view {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+    /* Encabezado del GridView */
+    .grid-view th {
+        background-color: #3e80fb; /* Color del encabezado */
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    /* Filas del GridView */
+    .grid-view td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    /* Estilo para filas alternas */
+    .grid-view tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .grid-view tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+
+    /* Efecto al pasar el mouse sobre las filas */
+    .grid-view tr:hover {
+        background-color: #3edefb;
+        cursor: pointer;
+    }
+
+    /* Estilos para las celdas seleccionadas */
+    .grid-view .selected-row {
+        background-color: #ffd54f;
+        font-weight: bold;
+        color: #333;
+    }
+
+    /* Botones dentro del GridView */
+    .grid-view .btn {
+        
+        padding: 5px 10px;
+        color: white;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        margin-right: 2%;
+        transition: background-color 0.3s;
+    }
+
+        .grid-view .btn:hover {
+            background-color: #45a049;
+        }
+/* Estilo para el encabezado H1 del listado de clientes */
+.heading-listado-clientes {
+    font-size: 2rem; /* Tamaño de la fuente */
+    font-weight: bold;
+    color: #3e80fb; /* Color principal del texto */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3e80fb; /* Línea inferior decorativa */
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px; /* Espacio entre letras */
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+.nuevaCuenta {
+    display: inline-block; /* Hace que los botones se alineen horizontalmente */
+    width: 48%;
+    margin: 15px auto 0 auto; /* Centrado horizontal y espacio desde arriba */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px;
+    width: 20%;
+    color: #fff; /* Color de texto */
+    background-color: #007bff; /* Color de fondo del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+    .nuevaCuenta:hover {
+        background-color: #0056b3;
+    }
+
+

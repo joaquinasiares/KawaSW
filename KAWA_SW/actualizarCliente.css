@@ -1,0 +1,79 @@
+﻿/* actualizarCliente.css */
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    width: 100%;
+}
+
+/* Contenedor que alinea los dos divs en fila */
+#form-container {
+    display: flex;
+    gap: 20px; /* Espacio entre las cajas */
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#acciones, #informacion {
+    flex: 1; /* Permite que ambos divs tomen el mismo espacio */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+#acciones {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+asp\:Button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    asp\:Button:hover {
+        background-color: #45a049;
+    }
+
+#informacion {
+    font-style: italic;
+    color: #333;
+    text-align: center;
+    font-size:20px;
+}
+
+#lblResultado {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-style: italic;
+}

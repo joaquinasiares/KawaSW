@@ -1,0 +1,62 @@
+﻿/* Contenedor del formulario */
+.form-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3e80fb;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+    /* Título del formulario */
+    .form-container h2 {
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+/* Estilos de las etiquetas */
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos de los campos de entrada */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left:-15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Estilos del botón */
+.form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #002d78;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .form-button:hover {
+        background-color: #77eafe;
+    }
+.lblCarga {
+    text-align:center;
+    font-size:20px;
+    font-family:Arial;
+    font-style:italic;
+    color:#3e80fb;
+
+}

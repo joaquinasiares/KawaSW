@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="kawaSW.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAWA SOFTWARE</title>
+    <link rel="stylesheet" href="master.css" type="text/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body id="body">
+    <form runat="server">
+        <div ID="fotoNav">
+            <img src="images/seguNav.png" />
+        </div>
+        <nav ID="nav">
+            <ul>
+                <li><a href="Default.aspx">INICIO</a></li>
+                <li><a href="AltaClientes.aspx">Registrar datos de los Clientes</a></li>
+                <li><a href="listadoClientes.aspx">Consultar Datos de los clientes</a></li>
+                <li><a href="ActualizarCliente.aspx">Movimientos en cuenta corriente</a></li>
+                <li><a href="CuentasCorrientes">Consultar Cuentas corrientes</a></li>
+            </ul>
+        </nav>
+        <div id="contenido">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                
+            </asp:ContentPlaceHolder>
+            <hr />
+        </div>
+        <footer id="footer">
+            <h2>Derechos reservados</h2>
+            <p>Joaquin Asiares / Yahir gonzales</p>
+           </footer>
+    </form>
+</body>
+</html>
